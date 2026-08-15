@@ -30,7 +30,7 @@ export const musicPlayerConfig: MusicPlayerConfig = {
 		// 类型：song=单曲, playlist=歌单, album=专辑, search=搜索, artist=艺术家
 		type: "playlist",
 		// 歌单/专辑/单曲 ID 或搜索关键词
-		id: "10046455237",
+		id: "805212265",
 		// 认证 token（可选）
 		auth: "",
 		// 备用 API 配置（当主 API 失败时使用）
@@ -42,16 +42,18 @@ export const musicPlayerConfig: MusicPlayerConfig = {
 
 	// 本地音乐配置（当 mode 为 'local' 时使用）
 	// 1. 支持传入歌词文件的路径
-	// lrc: "/assets/music/lrc/使一颗心免于哀伤-哼唱.lrc",
+	// lrc: "/assets/music/lrc/歌曲名.lrc",
 	// 2. 或者直接填入歌词字符串内容
 	// lrc: "[00:00.00]歌词内容...",
 	local: {
 		playlist: [
+			// 想加歌就再添加一个对象：把 mp3 放进 public/assets/music/ 目录，
+			// 封面放进 public/assets/music/cover/，然后照下面格式加一行即可
 			{
-				name: "使一颗心免于哀伤",
-				artist: "知更鸟 / HOYO-MiX / Chevy",
-				url: "/assets/music/使一颗心免于哀伤-哼唱.mp3",
-				cover: "/assets/music/cover/109951169585655912.webp",
+				name: "Merry Christmas Mr. Lawrence",
+				artist: "坂本龍一",
+				url: "/assets/music/Merry-Christmas-Mr-Lawrence.mp3",
+				cover: "/assets/music/cover/Merry-Christmas-Mr-Lawrence.jpg",
 				lrc: "",
 			},
 		],

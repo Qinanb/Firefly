@@ -9,25 +9,17 @@ export const siteConfig: SiteConfig = {
 	title: "Qinan",
 
 	// 站点副标题
-	subtitle: "Demo site",
+	subtitle: "记录技术、生活与思考",
 
 	// 站点 URL
 	site_url: "https://qinan.me",
 
 	// 站点描述
 	description:
-		"Firefly 是一款基于 Astro 框架和 Fuwari 模板开发的清新美观且现代化个人博客主题模板，专为技术爱好者和内容创作者设计。该主题融合了现代 Web 技术栈，提供了丰富的功能模块和高度可定制的界面，让您能够轻松打造出专业且美观的个人博客网站。",
+		"Qinan 的个人博客，分享技术笔记、生活随笔与思考感悟，记录成长路上的点滴。",
 
 	// 站点关键词
-	keywords: [
-		"Firefly",
-		"Fuwari",
-		"Astro",
-		"ACGN",
-		"博客",
-		"技术博客",
-		"静态博客",
-	],
+	keywords: ["Qinan", "个人博客", "技术博客", "生活记录", "随笔", "编程"],
 
 	// 主题色
 	themeColor: {
@@ -93,7 +85,7 @@ export const siteConfig: SiteConfig = {
 	},
 
 	// 站点开始日期，用于统计运行天数
-	siteStartDate: "2025-01-01",
+	siteStartDate: "2026-08-14",
 
 	// 站点时区（IANA 时区字符串），用于格式化bangumi、rss里的构建日期时间等等..
 	// 示例："Asia/Shanghai", "UTC", 如果为空，则按照构建服务器的时区进行时区转换
@@ -103,18 +95,18 @@ export const siteConfig: SiteConfig = {
 	pages: {
 		// 友链页面开关
 		friends: true,
-		// 打赏页面开关
-		sponsor: true,
+		// 打赏页面开关（暂未配置收款码，先关闭）
+		sponsor: false,
 		// 留言板页面开关，需要配置评论系统
 		guestbook: true,
-		// 番组计划页面开关，含追番、游戏、书籍和音乐
-		bangumi: true,
+		// 番组计划页面开关，含追番、游戏、书籍和音乐（暂未绑定 Bangumi 账号，先关闭）
+		bangumi: false,
 		// VNDB页面开关。
 		vndb: true,
 		// 相册页面开关
 		gallery: true,
-		// 追番页面开关
-		anime: true,
+		// 追番页面开关（暂未绑定 Bilibili 账号，先关闭）
+		anime: false,
 		// 动态页面开关
 		dynamic: true,
 		// 书签导航页面开关
@@ -218,8 +210,8 @@ export const siteConfig: SiteConfig = {
 
 	// bangumi配置
 	bangumi: {
-		// Bangumi用户ID
-		userId: "1143164",
+		// Bangumi用户ID（暂未绑定，绑定后打开 pages.bangumi 开关即可）
+		userId: "",
 		// 数据模式：static=构建时获取，dynamic=客户端实时获取
 		// static 模式在构建时获取数据并静态渲染，部署后数据不更新
 		// dynamic 模式在浏览器中实时请求 API，始终显示最新数据
@@ -260,10 +252,10 @@ export const siteConfig: SiteConfig = {
 
 	// 追番配置（Bilibili + TMDB）
 	anime: {
-		// Bilibili 配置
+		// Bilibili 配置（暂未绑定，绑定后打开 pages.anime 开关即可）
 		bilibili: {
 			// 你的 Bilibili 用户 UID
-			uid: "38932988",
+			uid: "",
 		},
 		// TMDB 配置（可选，需要翻墙）
 		// tmdb: {
