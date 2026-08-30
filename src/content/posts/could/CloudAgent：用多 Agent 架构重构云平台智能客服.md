@@ -2,7 +2,7 @@
 
 title: CloudAgent
 published: 2026-08-30
-description: 一个用自然语言驱动的终端 AI 编程助手
+description: 一个多Agent协同服务平台
 image: ./could.png
 tags: [Python, Agent]
 category: 锻造台
@@ -12,8 +12,6 @@ pinned: true
 ---
 
 # CloudAgent：用多 Agent 架构重构云平台智能客服
-
-![could](D:\Blog\Firefly\src\content\posts\could\could.png)
 
 > 项目仓库：https://github.com/Qinanb/Cloud-Agent
 
