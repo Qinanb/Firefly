@@ -1,8 +1,8 @@
 ---
 title: MyCoding Agent
-published: 2026-8-29
+published: 2026-08-29
 description: 一个用自然语言驱动的终端 AI 编程助手
-image: D:\Blog\Firefly\src\content\posts\img\mycoding_image.png
+image: ./mycoding_image.png
 tags: [Python, Agent]
 category: 锻造台
 draft: false
