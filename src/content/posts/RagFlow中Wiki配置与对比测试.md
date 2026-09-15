@@ -3,7 +3,8 @@ title: RagFlow中Wiki配置与对比测试
 published: 2026-08-30
 description: RAGFlow中Wiki使用
 image: ./gz.png
-tags: [manual]
+tags:
+  - manual
 category: 工作台
 draft: false
 pinned: false
